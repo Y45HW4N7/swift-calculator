@@ -9,11 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    let message = "Hello Git!"
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        print(message)
+    @IBOutlet weak var resultVariable: UILabel!
+    
+    @IBAction func addButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func subtractButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func multiplyButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func divideButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func equalsButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func clearButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func numberButtonPressed(_ sender: UIButton) {
     }
 }
