@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F904EFE322D70FE1006B547E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F904EFE222D70FE1006B547E /* AppDelegate.swift */; };
-		F904EFE522D70FE1006B547E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F904EFE422D70FE1006B547E /* ViewController.swift */; };
 		F904EFE822D70FE1006B547E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F904EFE622D70FE1006B547E /* Main.storyboard */; };
 		F904EFEA22D70FE2006B547E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F904EFE922D70FE2006B547E /* Assets.xcassets */; };
 		F904EFED22D70FE2006B547E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F904EFEB22D70FE2006B547E /* LaunchScreen.storyboard */; };
 		F904EFF822D70FE2006B547E /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F904EFF722D70FE2006B547E /* calculatorTests.swift */; };
-		F97AA4C622D87A2100BB079A /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97AA4C522D87A2100BB079A /* Calculation.swift */; };
+		F97AA4F422D8B21400BB079A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97AA4F322D8B21400BB079A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		F904EFDF22D70FE1006B547E /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F904EFE222D70FE1006B547E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F904EFE422D70FE1006B547E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F904EFE722D70FE1006B547E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F904EFE922D70FE2006B547E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F904EFEC22D70FE2006B547E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,7 +35,7 @@
 		F904EFF322D70FE2006B547E /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F904EFF722D70FE2006B547E /* calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorTests.swift; sourceTree = "<group>"; };
 		F904EFF922D70FE2006B547E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F97AA4C522D87A2100BB079A /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		F97AA4F322D8B21400BB079A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				F904EFE222D70FE1006B547E /* AppDelegate.swift */,
-				F904EFE422D70FE1006B547E /* ViewController.swift */,
 				F904EFE622D70FE1006B547E /* Main.storyboard */,
 				F904EFE922D70FE2006B547E /* Assets.xcassets */,
 				F904EFEB22D70FE2006B547E /* LaunchScreen.storyboard */,
 				F904EFEE22D70FE2006B547E /* Info.plist */,
-				F97AA4C522D87A2100BB079A /* Calculation.swift */,
+				F97AA4F322D8B21400BB079A /* ViewController.swift */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -200,8 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F904EFE522D70FE1006B547E /* ViewController.swift in Sources */,
-				F97AA4C622D87A2100BB079A /* Calculation.swift in Sources */,
+				F97AA4F422D8B21400BB079A /* ViewController.swift in Sources */,
 				F904EFE322D70FE1006B547E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
