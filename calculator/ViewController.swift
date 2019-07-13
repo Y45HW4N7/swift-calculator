@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     
     var firstNumberText = ""
     var secondNumberText = ""
-    var op = ""
+    var operation = ""
     var isFirstNumber = true
-    var hasOp = false
+    var hasOperation = false
     var canClear = true
     
     override func viewDidLoad() {
@@ -32,17 +32,17 @@ class ViewController: UIViewController {
         if let text = textLabel {
             switch text {
             case "+", "*", "/", "-":
-                if hasOp {
+                if hasOperation {
                     return
                 }
-                op = text
+                operation = text
                 isFirstNumber = false
-                hasOp = true
-                resultLabel.text = "\(currentText) \(op) "
+                hasOperation = true
+                resultLabel.text = "\(currentText) \(operation) "
                 break
             case "=":
                 isFirstNumber = true
-                hasOp = false
+                hasOperation = false
                 canClear = true
                 let result = calculate()
                 resultLabel.text = "\(result)"
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         let secondNumber = Double(secondNumberText)!
         firstNumberText = ""
         secondNumberText = ""
-        switch op {
+        switch operation {
         case "+":
             return firstNumber + secondNumber
         case "-":
@@ -77,5 +77,4 @@ class ViewController: UIViewController {
             return 0
         }
     }
-    
 }
